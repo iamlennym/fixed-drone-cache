@@ -1,0 +1,13 @@
+diff --git a/main.go b/main.go
+index 87cb71f..49d99f9 100644
+--- a/main.go
++++ b/main.go
+@@ -426,7 +426,7 @@ func main() {
+ 			EnvVars: []string{"PLUGIN_ACCOUNT_KEY", "AZURE_ACCOUNT_KEY"},
+ 		},
+ 		&cli.StringFlag{
+-			Name:    "azure.blob-container-name",
++			Name:    "azure.container-name",
+ 			Usage:   "Azure Blob Storage container name",
+ 			EnvVars: []string{"PLUGIN_CONTAINER", "AZURE_CONTAINER_NAME"},
+ 		},
